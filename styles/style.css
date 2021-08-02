@@ -1,0 +1,94 @@
+@import url(./theme.css);
+
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: transparent;
+  color: var(--color);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent !important;
+}
+
+body {
+  background-color: var(--light-background-color);
+}
+
+.heading {
+  font-weight: bold;
+}
+
+.currencies-card img {
+  max-height: 40px;
+}
+
+.currencies-list {
+  max-height: 77vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .currencies-list {
+    max-height: 48vh;
+  }
+}
+
+.green {
+  /* color: rgb(73, 204, 104); */
+  color: #49cc68;
+}
+
+.red {
+  /* color: rgb(255, 103, 61); */
+  color: #ff673d;
+}
+
+.small {
+  font-size: 0.875rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.chart {
+  user-select: none;
+}
+
+.chart-btn {
+  padding: 3px 5px;
+  font-size: 12px;
+  border: 1px solid #0d6efd;
+}
+
+.star-wrapper {
+  margin: 15px;
+}
+
+.star-icon {
+  height: 25px;
+  cursor: pointer;
+}
+
+.small-star-icon {
+  margin: -4px 0px 0px 0px;
+  height: 13px;
+}
+
+@media only screen and (max-width: 600px) {
+  .star-wrapper {
+    margin: 10px 12px 0px 0px;
+  }
+  .star-icon {
+    height: 20px;
+  }
+  .xs-small {
+    font-size: 12px;
+  }
+}

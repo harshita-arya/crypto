@@ -1,0 +1,20 @@
+@import url(./theme.css);
+
+.custom-card {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--background-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .chart-card {
+    padding: 20px 0px;
+  }
+}
+
+.prinary-btn-active {
+  background-color: #fff;
+  color: #0d6efd;
+  font-weight: bold;
+  border: 1px solid #0d6efd;
+}

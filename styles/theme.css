@@ -1,0 +1,13 @@
+:root {
+  --light-background-color: #f0f3f8;
+  --background-color: #fff;
+  --color: #3c4a5b;
+  --primary-background-color: #0d6efd;
+}
+
+[data-theme="dark"] {
+  --light-background-color: rgb(43, 43, 43);
+  --background-color: rgba(33, 33, 33, 1);
+  --color: #f2f2f2;
+  --primary-background-color: #0d6efd;
+}
